@@ -6,11 +6,11 @@ function bulb_switch(n) {
     if (n == 1) {
         bulb.src = 'img/pic_bulbon.gif'
         document.getElementById("btn_on").style.backgroundColor = "green";
-        document.getElementById("btn_off").style.backgroundColor='#ccc';
+        document.getElementById("btn_off").style.backgroundColor='#aaa';
     }
     else {
         bulb.src = "img/pic_bulboff.gif";
         document.getElementById("btn_off").style.backgroundColor = "green";
-        document.getElementById("btn_on").style.backgroundColor = "#ccc";
+        document.getElementById("btn_on").style.backgroundColor = "#aaa";
     }
 }
